@@ -1,3 +1,57 @@
-.pr
-{color: red;
-translate: 10px 3.125rem;}
+header
+{
+    background-color: azure;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+.backg
+{
+    background-image: url("bg.jpg");
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+.btn2
+{
+    background-color: rgb(73, 73, 219);
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: large;
+    margin-left: 20px;
+    cursor: pointer;
+    height: 30px;
+    margin-top: 20px;
+}
+.btn
+{
+    background-color: azure;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin-left: 75vw;
+    cursor: pointer;
+    height: 30px;
+    font-size: large;
+    margin-top: 20px;
+}
+.prod
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.cont
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
