@@ -55,6 +55,7 @@ header
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
 }
 img
 {
@@ -89,8 +90,30 @@ img:hover
     }
     img{
         margin-bottom: 20px;
-        height: 50px;
-        width: 50px;
+        height: 80px;
+        width: 80px;
     }
     
+}
+.backg2
+{
+    background-image: url("bg.jpg");
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+input, textarea
+{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
